@@ -35,6 +35,19 @@
 
 		<button type="button" onclick="myFunction()">Try it</button>
 
+		<form action="submitpage.htm" onsubmit="return validate_form(this)" method="post">
+			Email: <input type="text" name="email" size="30">
+			<input type="submit" value="Submit">
+		</form>
+
+		<p>Please input a number between 5 and 10:</p>
+		<input id="demotrycatch" type="text">
+		<button type="button" onclick="trycatchFunc()">Test Input</button>
+		<p id="mess"></p>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+		</script>
+
 	</body>
 </html>
 
