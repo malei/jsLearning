@@ -172,3 +172,95 @@ function showCustomer(str) {
 	}
 	loadXMLDoc("GET", "/aaa.txt?s=" + str, func);
 }
+
+function Api(url, error) {
+	var _this = this;
+	var _url = url;
+	var _dataType = "json";
+	//var _method = "POST";
+	var _method = "GET";
+	//var _type = "GET";
+	var _error = error;
+
+	_this.call = function(name, args, invoke, error) {
+		if (typeof args == "undefined" || args == null)
+			var args = {};
+		var error_handler = _error;
+		if (typeof error == "function") {
+			error_handler = function(data, name, args) {
+				_error(data, name, args); // 这个只使用第一个e=data
+				error(data, name, args); // 这个只使用第一个e=data
+			}
+		}
+
+		obj = {
+			//url: _url + "/" + name,
+			//url: "http://0.0.0.0:9000/aaa.txt",
+			//url: "http://0.0.0.0:9000/Echo",
+			url: _url + "/" + name,
+			//url: "http://127.0.0.1:9000/Echo",
+			type: _method,
+			dataType: _dataType,
+	 		data: args,
+			error: function(r, s, e) {
+				error_handler("" + r.status + ":" + r.responseText, name, args);
+			},
+	 		timeout: 3000,
+	 		success: function(json) {
+				if (json == null) {
+					error_handler(data, name, args);
+					return
+				}
+				//console.log(json["status"])
+				//console.log(json["msg"])
+				if (json["status"] != "OK") {
+					error_handler(data, name, args);
+					return
+				}
+				var result = json["result"];
+				//console.log("result.length:" + result.length)
+				//console.log("result:" + result)
+				//console.log("result[result.length - 1]:" + result[result.length - 1])
+				if (!result.length || result.length < 1 ) {
+					//alert(result)
+					error_handler(data, name, args);
+					return
+				}
+				//result = result.splice(0, result.length - 1);
+				if (result.length == 1) {
+					result = result[0];
+				}
+				if (typeof invoke != "undefined") {
+					invoke(result);
+				}
+			}
+		}
+		_this.poller = jq.ajax(obj);
+	}
+}
+
+function apiShowFunc() {
+	//api = new Api('http://localhost:9000', function(e) { alert('Api:' + e); });
+	//api = new Api('http://127.0.0.1:9000', function(e) { alert('Api:' + e); });
+	api = new Api('http://0.0.0.0:9000', function(e) { alert('Api:' + e); });
+	//api = new Api('http://0.0.0.0:9999', function(e) { alert('Api:' + e); });
+
+	//jq("#apiShowDiv").html("hello lua")
+
+	api.call(
+		"Echo",
+		'{"msg": "Hello, girl"}',
+		function(data) {
+			jq("#apiShowDiv").html(data);
+		},
+		function(e) {
+			jq("#apiShowDiv").html("error" + e);
+		}
+	);
+}
+
+function a (a) {
+	console.log("a:" + a)
+}
+
+a(23,23, 343);

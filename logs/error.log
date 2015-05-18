@@ -543,3 +543,473 @@
 2015/05/18 11:08:32 [notice] 12538#0: worker process 31437 exited with code 0
 2015/05/18 11:08:32 [notice] 12538#0: worker process 31438 exited with code 0
 2015/05/18 11:08:32 [notice] 12538#0: exit
+2015/05/18 13:41:30 [notice] 11065#0: using the "epoll" event method
+2015/05/18 13:41:30 [notice] 11065#0: nginx/1.0.0
+2015/05/18 13:41:30 [notice] 11065#0: built by gcc 4.4.7 20120313 (Red Hat 4.4.7-11) (GCC) 
+2015/05/18 13:41:30 [notice] 11065#0: OS: Linux 2.6.32-431.el6.x86_64
+2015/05/18 13:41:30 [notice] 11065#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/05/18 13:41:30 [notice] 11065#0: start worker processes
+2015/05/18 13:41:30 [notice] 11065#0: start worker process 11066
+2015/05/18 13:41:30 [notice] 11065#0: start worker process 11067
+2015/05/18 13:41:30 [notice] 11065#0: start worker process 11068
+2015/05/18 13:41:30 [notice] 11065#0: start worker process 11069
+2015/05/18 13:41:36 [error] 11066#0: *1 open() ".//./favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:9000"
+2015/05/18 13:41:39 [error] 11066#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "http://127.0.0.1:6000/index.php", host: "0.0.0.0:9000", referrer: "http://0.0.0.0:9000/?"
+2015/05/18 13:41:39 [error] 11066#0: *1 open() ".//html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "http://127.0.0.1:6000/index.php", host: "0.0.0.0:9000", referrer: "http://0.0.0.0:9000/?"
+2015/05/18 13:41:46 [info] 11066#0: *2 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 13:41:46 [info] 11066#0: *3 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 13:54:23 [info] 11066#0: *7 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 13:54:23 [info] 11066#0: *10 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 13:54:23 [info] 11066#0: *9 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 13:54:23 [info] 11066#0: *8 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 13:55:23 [info] 11066#0: *11 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 13:55:23 [info] 11066#0: *14 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 13:55:23 [info] 11066#0: *13 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 13:55:23 [info] 11066#0: *12 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 13:58:00 [info] 11066#0: *17 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 13:58:00 [info] 11066#0: *16 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 13:58:00 [info] 11066#0: *18 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 13:59:13 [info] 11066#0: *21 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 13:59:13 [info] 11066#0: *22 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 13:59:53 [info] 11066#0: *23 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 13:59:53 [info] 11066#0: *24 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 14:01:16 [error] 11066#0: *25 open() ".//./favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:9000"
+2015/05/18 14:01:22 [info] 11066#0: *26 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 14:02:05 [info] 11066#0: *29 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 14:02:05 [info] 11066#0: *30 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 14:02:27 [error] 11066#0: *33 open() ".//./Echo" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /Echo HTTP/1.1", host: "127.0.0.1:9000", referrer: "http://0.0.0.0:9000/?"
+2015/05/18 14:02:35 [info] 11066#0: *31 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 14:02:35 [info] 11066#0: *32 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 14:04:22 [notice] 11066#0: signal 2 (SIGINT) received, exiting
+2015/05/18 14:04:22 [notice] 11068#0: signal 2 (SIGINT) received, exiting
+2015/05/18 14:04:22 [notice] 11067#0: signal 2 (SIGINT) received, exiting
+2015/05/18 14:04:22 [info] 11066#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 14:04:22 [notice] 11069#0: signal 2 (SIGINT) received, exiting
+2015/05/18 14:04:22 [info] 11068#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 14:04:22 [info] 11067#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 14:04:22 [notice] 11066#0: exiting
+2015/05/18 14:04:22 [info] 11069#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 14:04:22 [notice] 11067#0: exiting
+2015/05/18 14:04:22 [notice] 11069#0: exiting
+2015/05/18 14:04:22 [notice] 11068#0: exiting
+2015/05/18 14:04:22 [notice] 11066#0: exit
+2015/05/18 14:04:22 [notice] 11067#0: exit
+2015/05/18 14:04:22 [notice] 11069#0: exit
+2015/05/18 14:04:22 [notice] 11068#0: exit
+2015/05/18 14:04:22 [notice] 11065#0: signal 2 (SIGINT) received, exiting
+2015/05/18 14:04:22 [notice] 11065#0: signal 17 (SIGCHLD) received
+2015/05/18 14:04:22 [notice] 11065#0: worker process 11066 exited with code 0
+2015/05/18 14:04:22 [notice] 11065#0: worker process 11067 exited with code 0
+2015/05/18 14:04:22 [notice] 11065#0: worker process 11068 exited with code 0
+2015/05/18 14:04:22 [notice] 11065#0: worker process 11069 exited with code 0
+2015/05/18 14:04:22 [notice] 11065#0: exit
+2015/05/18 14:04:35 [notice] 16464#0: using the "epoll" event method
+2015/05/18 14:04:35 [notice] 16464#0: nginx/1.0.0
+2015/05/18 14:04:35 [notice] 16464#0: built by gcc 4.4.7 20120313 (Red Hat 4.4.7-11) (GCC) 
+2015/05/18 14:04:35 [notice] 16464#0: OS: Linux 2.6.32-431.el6.x86_64
+2015/05/18 14:04:35 [notice] 16464#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/05/18 14:04:35 [notice] 16464#0: start worker processes
+2015/05/18 14:04:35 [notice] 16464#0: start worker process 16465
+2015/05/18 14:04:35 [notice] 16464#0: start worker process 16466
+2015/05/18 14:04:35 [notice] 16464#0: start worker process 16467
+2015/05/18 14:04:35 [notice] 16464#0: start worker process 16468
+2015/05/18 14:04:41 [error] 16465#0: *1 open() ".//./Echo" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /Echo HTTP/1.1", host: "127.0.0.1:9000", referrer: "http://0.0.0.0:9000/?"
+2015/05/18 14:04:44 [error] 16465#0: *1 open() ".//./Echo" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /Echo HTTP/1.1", host: "127.0.0.1:9000", referrer: "http://0.0.0.0:9000/?"
+2015/05/18 14:04:59 [error] 16465#0: *1 open() ".//./Echo" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /Echo HTTP/1.1", host: "127.0.0.1:9000", referrer: "http://0.0.0.0:9000/?"
+2015/05/18 14:05:01 [info] 16465#0: *3 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 14:05:01 [info] 16465#0: *8 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 14:05:01 [info] 16465#0: *7 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 14:05:01 [info] 16465#0: *6 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 14:05:01 [info] 16465#0: *5 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 14:05:01 [info] 16465#0: *4 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 14:05:53 [notice] 16468#0: signal 2 (SIGINT) received, exiting
+2015/05/18 14:05:53 [notice] 16466#0: signal 2 (SIGINT) received, exiting
+2015/05/18 14:05:53 [notice] 16465#0: signal 2 (SIGINT) received, exiting
+2015/05/18 14:05:53 [info] 16466#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 14:05:53 [info] 16468#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 14:05:53 [notice] 16466#0: exiting
+2015/05/18 14:05:53 [notice] 16468#0: exiting
+2015/05/18 14:05:53 [info] 16465#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 14:05:53 [notice] 16465#0: exiting
+2015/05/18 14:05:53 [notice] 16466#0: exit
+2015/05/18 14:05:53 [notice] 16468#0: exit
+2015/05/18 14:05:53 [notice] 16465#0: exit
+2015/05/18 14:05:53 [notice] 16464#0: signal 17 (SIGCHLD) received
+2015/05/18 14:05:53 [notice] 16464#0: worker process 16466 exited with code 0
+2015/05/18 14:05:53 [notice] 16467#0: signal 2 (SIGINT) received, exiting
+2015/05/18 14:05:53 [notice] 16464#0: worker process 16468 exited with code 0
+2015/05/18 14:05:53 [info] 16467#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 14:05:53 [notice] 16464#0: signal 17 (SIGCHLD) received
+2015/05/18 14:05:53 [notice] 16467#0: exiting
+2015/05/18 14:05:53 [notice] 16464#0: signal 2 (SIGINT) received, exiting
+2015/05/18 14:05:53 [notice] 16464#0: signal 29 (SIGIO) received
+2015/05/18 14:05:53 [notice] 16464#0: signal 17 (SIGCHLD) received
+2015/05/18 14:05:53 [notice] 16464#0: worker process 16465 exited with code 0
+2015/05/18 14:05:53 [notice] 16464#0: signal 29 (SIGIO) received
+2015/05/18 14:05:53 [notice] 16467#0: exit
+2015/05/18 14:05:53 [notice] 16464#0: signal 17 (SIGCHLD) received
+2015/05/18 14:05:53 [notice] 16464#0: worker process 16467 exited with code 0
+2015/05/18 14:05:53 [notice] 16464#0: exit
+2015/05/18 14:05:54 [notice] 16545#0: using the "epoll" event method
+2015/05/18 14:05:54 [notice] 16545#0: nginx/1.0.0
+2015/05/18 14:05:54 [notice] 16545#0: built by gcc 4.4.7 20120313 (Red Hat 4.4.7-11) (GCC) 
+2015/05/18 14:05:54 [notice] 16545#0: OS: Linux 2.6.32-431.el6.x86_64
+2015/05/18 14:05:54 [notice] 16545#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/05/18 14:05:54 [notice] 16545#0: start worker processes
+2015/05/18 14:05:54 [notice] 16545#0: start worker process 16546
+2015/05/18 14:05:54 [notice] 16545#0: start worker process 16547
+2015/05/18 14:05:54 [notice] 16545#0: start worker process 16548
+2015/05/18 14:05:54 [notice] 16545#0: start worker process 16549
+2015/05/18 14:06:04 [info] 16546#0: *1 client 127.0.0.1 closed keepalive connection
+2015/05/18 14:06:27 [info] 16546#0: *4 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 14:06:27 [info] 16546#0: *3 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 14:06:27 [info] 16546#0: *7 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 14:06:27 [info] 16546#0: *6 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 14:06:27 [info] 16546#0: *5 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 14:07:19 [info] 16546#0: *9 client 127.0.0.1 closed keepalive connection
+2015/05/18 14:07:21 [info] 16546#0: *10 client 127.0.0.1 closed keepalive connection
+2015/05/18 14:07:22 [info] 16546#0: *11 client 127.0.0.1 closed keepalive connection
+2015/05/18 14:07:23 [info] 16546#0: *12 client 127.0.0.1 closed keepalive connection
+2015/05/18 14:07:23 [info] 16546#0: *13 client 127.0.0.1 closed keepalive connection
+2015/05/18 14:07:24 [info] 16546#0: *14 client 127.0.0.1 closed keepalive connection
+2015/05/18 14:07:24 [info] 16546#0: *15 client 127.0.0.1 closed keepalive connection
+2015/05/18 14:07:54 [notice] 16546#0: signal 2 (SIGINT) received, exiting
+2015/05/18 14:07:54 [notice] 16549#0: signal 2 (SIGINT) received, exiting
+2015/05/18 14:07:54 [notice] 16545#0: signal 2 (SIGINT) received, exiting
+2015/05/18 14:07:54 [info] 16546#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 14:07:54 [info] 16549#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 14:07:54 [notice] 16546#0: exiting
+2015/05/18 14:07:54 [notice] 16549#0: exiting
+2015/05/18 14:07:54 [notice] 16547#0: signal 2 (SIGINT) received, exiting
+2015/05/18 14:07:54 [notice] 16547#0: exiting
+2015/05/18 14:07:54 [notice] 16547#0: exit
+2015/05/18 14:07:54 [notice] 16549#0: exit
+2015/05/18 14:07:54 [notice] 16546#0: exit
+2015/05/18 14:07:54 [notice] 16545#0: signal 17 (SIGCHLD) received
+2015/05/18 14:07:54 [notice] 16545#0: worker process 16547 exited with code 0
+2015/05/18 14:07:54 [notice] 16545#0: signal 29 (SIGIO) received
+2015/05/18 14:07:54 [notice] 16548#0: signal 2 (SIGINT) received, exiting
+2015/05/18 14:07:54 [notice] 16548#0: exiting
+2015/05/18 14:07:54 [notice] 16548#0: exit
+2015/05/18 14:07:54 [notice] 16545#0: signal 17 (SIGCHLD) received
+2015/05/18 14:07:54 [notice] 16545#0: worker process 16546 exited with code 0
+2015/05/18 14:07:54 [notice] 16545#0: worker process 16549 exited with code 0
+2015/05/18 14:07:54 [notice] 16545#0: signal 29 (SIGIO) received
+2015/05/18 14:07:54 [notice] 16545#0: signal 17 (SIGCHLD) received
+2015/05/18 14:07:54 [notice] 16545#0: worker process 16548 exited with code 0
+2015/05/18 14:07:54 [notice] 16545#0: exit
+2015/05/18 14:07:54 [notice] 16770#0: using the "epoll" event method
+2015/05/18 14:07:54 [notice] 16770#0: nginx/1.0.0
+2015/05/18 14:07:54 [notice] 16770#0: built by gcc 4.4.7 20120313 (Red Hat 4.4.7-11) (GCC) 
+2015/05/18 14:07:54 [notice] 16770#0: OS: Linux 2.6.32-431.el6.x86_64
+2015/05/18 14:07:54 [notice] 16770#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/05/18 14:07:54 [notice] 16770#0: start worker processes
+2015/05/18 14:07:54 [notice] 16770#0: start worker process 16771
+2015/05/18 14:07:54 [notice] 16770#0: start worker process 16772
+2015/05/18 14:07:54 [notice] 16770#0: start worker process 16773
+2015/05/18 14:07:54 [notice] 16770#0: start worker process 16774
+2015/05/18 14:07:57 [info] 16771#0: *1 client 127.0.0.1 closed keepalive connection
+2015/05/18 14:10:09 [info] 16771#0: *3 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 14:10:09 [info] 16771#0: *7 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 14:10:09 [info] 16771#0: *6 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 14:10:09 [info] 16771#0: *5 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 14:10:09 [info] 16771#0: *4 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 14:10:29 [info] 16771#0: *10 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 14:11:09 [info] 16771#0: *13 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 14:11:09 [info] 16771#0: *14 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 14:11:10 [info] 16771#0: *16 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 14:12:41 [info] 16771#0: *19 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 14:13:11 [info] 16771#0: *21 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 16:14:08 [notice] 16772#0: signal 2 (SIGINT) received, exiting
+2015/05/18 16:14:08 [notice] 16770#0: signal 2 (SIGINT) received, exiting
+2015/05/18 16:14:08 [notice] 16774#0: signal 2 (SIGINT) received, exiting
+2015/05/18 16:14:08 [info] 16772#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 16:14:08 [notice] 16772#0: exiting
+2015/05/18 16:14:08 [info] 16774#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 16:14:08 [notice] 16774#0: exiting
+2015/05/18 16:14:08 [notice] 16773#0: signal 2 (SIGINT) received, exiting
+2015/05/18 16:14:08 [notice] 16771#0: signal 2 (SIGINT) received, exiting
+2015/05/18 16:14:08 [notice] 16773#0: exiting
+2015/05/18 16:14:08 [notice] 16771#0: exiting
+2015/05/18 16:14:08 [notice] 16772#0: exit
+2015/05/18 16:14:08 [notice] 16774#0: exit
+2015/05/18 16:14:08 [notice] 16773#0: exit
+2015/05/18 16:14:08 [notice] 16771#0: exit
+2015/05/18 16:14:08 [notice] 16770#0: signal 17 (SIGCHLD) received
+2015/05/18 16:14:08 [notice] 16770#0: worker process 16771 exited with code 0
+2015/05/18 16:14:08 [notice] 16770#0: worker process 16772 exited with code 0
+2015/05/18 16:14:08 [notice] 16770#0: worker process 16773 exited with code 0
+2015/05/18 16:14:08 [notice] 16770#0: worker process 16774 exited with code 0
+2015/05/18 16:14:08 [notice] 16770#0: exit
+2015/05/18 17:20:03 [notice] 11379#0: using the "epoll" event method
+2015/05/18 17:20:03 [notice] 11379#0: nginx/1.0.0
+2015/05/18 17:20:03 [notice] 11379#0: built by gcc 4.4.7 20120313 (Red Hat 4.4.7-11) (GCC) 
+2015/05/18 17:20:03 [notice] 11379#0: OS: Linux 2.6.32-431.el6.x86_64
+2015/05/18 17:20:03 [notice] 11379#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/05/18 17:20:03 [notice] 11379#0: start worker processes
+2015/05/18 17:20:03 [notice] 11379#0: start worker process 11380
+2015/05/18 17:20:03 [notice] 11379#0: start worker process 11381
+2015/05/18 17:20:03 [notice] 11379#0: start worker process 11382
+2015/05/18 17:20:03 [notice] 11379#0: start worker process 11383
+2015/05/18 17:20:17 [info] 11380#0: *2 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 17:20:17 [info] 11380#0: *6 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 17:20:17 [info] 11380#0: *5 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 17:20:17 [info] 11380#0: *4 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 17:20:17 [info] 11380#0: *3 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 17:47:09 [info] 11380#0: *70 client 127.0.0.1 closed keepalive connection
+2015/05/18 17:47:15 [info] 11380#0: *71 client 127.0.0.1 closed keepalive connection
+2015/05/18 17:50:01 [notice] 11382#0: signal 2 (SIGINT) received, exiting
+2015/05/18 17:50:01 [notice] 11381#0: signal 2 (SIGINT) received, exiting
+2015/05/18 17:50:01 [info] 11382#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 17:50:01 [notice] 11383#0: signal 2 (SIGINT) received, exiting
+2015/05/18 17:50:01 [info] 11381#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 17:50:01 [notice] 11382#0: exiting
+2015/05/18 17:50:01 [info] 11383#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 17:50:01 [notice] 11381#0: exiting
+2015/05/18 17:50:01 [notice] 11383#0: exiting
+2015/05/18 17:50:01 [notice] 11381#0: exit
+2015/05/18 17:50:01 [notice] 11382#0: exit
+2015/05/18 17:50:01 [notice] 11383#0: exit
+2015/05/18 17:50:01 [notice] 11379#0: signal 17 (SIGCHLD) received
+2015/05/18 17:50:01 [notice] 11379#0: worker process 11381 exited with code 0
+2015/05/18 17:50:01 [notice] 11379#0: signal 2 (SIGINT) received, exiting
+2015/05/18 17:50:01 [notice] 11380#0: signal 2 (SIGINT) received, exiting
+2015/05/18 17:50:01 [notice] 11380#0: exiting
+2015/05/18 17:50:01 [notice] 11380#0: exit
+2015/05/18 17:50:01 [notice] 11379#0: signal 29 (SIGIO) received
+2015/05/18 17:50:01 [notice] 11379#0: signal 17 (SIGCHLD) received
+2015/05/18 17:50:01 [notice] 11379#0: worker process 11380 exited with code 0
+2015/05/18 17:50:01 [notice] 11379#0: worker process 11382 exited with code 0
+2015/05/18 17:50:01 [notice] 11379#0: worker process 11383 exited with code 0
+2015/05/18 17:50:01 [notice] 11379#0: exit
+2015/05/18 17:50:02 [notice] 12775#0: using the "epoll" event method
+2015/05/18 17:50:02 [notice] 12775#0: nginx/1.0.0
+2015/05/18 17:50:02 [notice] 12775#0: built by gcc 4.4.7 20120313 (Red Hat 4.4.7-11) (GCC) 
+2015/05/18 17:50:02 [notice] 12775#0: OS: Linux 2.6.32-431.el6.x86_64
+2015/05/18 17:50:02 [notice] 12775#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/05/18 17:50:02 [notice] 12775#0: start worker processes
+2015/05/18 17:50:02 [notice] 12775#0: start worker process 12776
+2015/05/18 17:50:02 [notice] 12775#0: start worker process 12777
+2015/05/18 17:50:02 [notice] 12775#0: start worker process 12778
+2015/05/18 17:50:02 [notice] 12775#0: start worker process 12779
+2015/05/18 18:56:11 [error] 12776#0: *45 open() ".//./favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:9000"
+2015/05/18 18:57:46 [info] 12776#0: *56 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 18:57:46 [info] 12776#0: *63 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 18:57:46 [info] 12776#0: *62 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 18:57:46 [info] 12776#0: *61 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 18:57:46 [info] 12776#0: *60 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 18:57:46 [info] 12776#0: *59 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 18:57:46 [info] 12776#0: *58 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 18:57:46 [info] 12776#0: *57 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 19:02:26 [notice] 12779#0: signal 2 (SIGINT) received, exiting
+2015/05/18 19:02:26 [notice] 12777#0: signal 2 (SIGINT) received, exiting
+2015/05/18 19:02:26 [notice] 12778#0: signal 2 (SIGINT) received, exiting
+2015/05/18 19:02:26 [info] 12779#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 19:02:26 [notice] 12776#0: signal 2 (SIGINT) received, exiting
+2015/05/18 19:02:26 [info] 12778#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 19:02:26 [notice] 12779#0: exiting
+2015/05/18 19:02:26 [info] 12777#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 19:02:26 [notice] 12778#0: exiting
+2015/05/18 19:02:26 [notice] 12777#0: exiting
+2015/05/18 19:02:26 [info] 12776#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 19:02:26 [notice] 12776#0: exiting
+2015/05/18 19:02:26 [notice] 12778#0: exit
+2015/05/18 19:02:26 [notice] 12779#0: exit
+2015/05/18 19:02:26 [notice] 12777#0: exit
+2015/05/18 19:02:26 [notice] 12776#0: exit
+2015/05/18 19:02:26 [notice] 12775#0: signal 17 (SIGCHLD) received
+2015/05/18 19:02:26 [notice] 12775#0: worker process 12776 exited with code 0
+2015/05/18 19:02:26 [notice] 12775#0: worker process 12777 exited with code 0
+2015/05/18 19:02:26 [notice] 12775#0: worker process 12778 exited with code 0
+2015/05/18 19:02:26 [notice] 12775#0: worker process 12779 exited with code 0
+2015/05/18 19:02:26 [notice] 12775#0: signal 2 (SIGINT) received, exiting
+2015/05/18 19:02:26 [notice] 12775#0: exit
+2015/05/18 19:02:27 [emerg] 15698#0: unknown directive "//echo" in .//conf/nginx.conf:55
+2015/05/18 19:02:45 [notice] 15705#0: using the "epoll" event method
+2015/05/18 19:02:45 [notice] 15705#0: nginx/1.0.0
+2015/05/18 19:02:45 [notice] 15705#0: built by gcc 4.4.7 20120313 (Red Hat 4.4.7-11) (GCC) 
+2015/05/18 19:02:45 [notice] 15705#0: OS: Linux 2.6.32-431.el6.x86_64
+2015/05/18 19:02:45 [notice] 15705#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/05/18 19:02:45 [notice] 15705#0: start worker processes
+2015/05/18 19:02:45 [notice] 15705#0: start worker process 15706
+2015/05/18 19:02:45 [notice] 15705#0: start worker process 15707
+2015/05/18 19:02:45 [notice] 15705#0: start worker process 15708
+2015/05/18 19:02:45 [notice] 15705#0: start worker process 15709
+2015/05/18 19:21:45 [notice] 15706#0: signal 2 (SIGINT) received, exiting
+2015/05/18 19:21:45 [notice] 15707#0: signal 2 (SIGINT) received, exiting
+2015/05/18 19:21:45 [notice] 15705#0: signal 2 (SIGINT) received, exiting
+2015/05/18 19:21:45 [notice] 15709#0: signal 2 (SIGINT) received, exiting
+2015/05/18 19:21:45 [info] 15707#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 19:21:45 [info] 15706#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 19:21:45 [info] 15709#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 19:21:45 [notice] 15707#0: exiting
+2015/05/18 19:21:45 [notice] 15706#0: exiting
+2015/05/18 19:21:45 [notice] 15709#0: exiting
+2015/05/18 19:21:45 [notice] 15706#0: exit
+2015/05/18 19:21:45 [notice] 15709#0: exit
+2015/05/18 19:21:45 [notice] 15707#0: exit
+2015/05/18 19:21:45 [notice] 15705#0: signal 17 (SIGCHLD) received
+2015/05/18 19:21:45 [notice] 15705#0: worker process 15706 exited with code 0
+2015/05/18 19:21:45 [notice] 15705#0: signal 29 (SIGIO) received
+2015/05/18 19:21:45 [notice] 15705#0: signal 17 (SIGCHLD) received
+2015/05/18 19:21:45 [notice] 15708#0: signal 2 (SIGINT) received, exiting
+2015/05/18 19:21:45 [notice] 15705#0: worker process 15707 exited with code 0
+2015/05/18 19:21:45 [notice] 15708#0: exiting
+2015/05/18 19:21:45 [notice] 15705#0: worker process 15709 exited with code 0
+2015/05/18 19:21:45 [notice] 15705#0: signal 29 (SIGIO) received
+2015/05/18 19:21:45 [notice] 15708#0: exit
+2015/05/18 19:21:45 [notice] 15705#0: signal 17 (SIGCHLD) received
+2015/05/18 19:21:45 [notice] 15705#0: worker process 15708 exited with code 0
+2015/05/18 19:21:45 [notice] 15705#0: exit
+2015/05/18 19:21:46 [notice] 16842#0: using the "epoll" event method
+2015/05/18 19:21:46 [notice] 16842#0: nginx/1.0.0
+2015/05/18 19:21:46 [notice] 16842#0: built by gcc 4.4.7 20120313 (Red Hat 4.4.7-11) (GCC) 
+2015/05/18 19:21:46 [notice] 16842#0: OS: Linux 2.6.32-431.el6.x86_64
+2015/05/18 19:21:46 [notice] 16842#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/05/18 19:21:46 [notice] 16842#0: start worker processes
+2015/05/18 19:21:46 [notice] 16842#0: start worker process 16843
+2015/05/18 19:21:46 [notice] 16842#0: start worker process 16844
+2015/05/18 19:21:46 [notice] 16842#0: start worker process 16845
+2015/05/18 19:21:46 [notice] 16842#0: start worker process 16846
+2015/05/18 19:24:25 [notice] 16842#0: signal 2 (SIGINT) received, exiting
+2015/05/18 19:24:25 [notice] 16844#0: signal 2 (SIGINT) received, exiting
+2015/05/18 19:24:25 [notice] 16846#0: signal 2 (SIGINT) received, exiting
+2015/05/18 19:24:25 [info] 16844#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 19:24:25 [info] 16846#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 19:24:25 [notice] 16844#0: exiting
+2015/05/18 19:24:25 [notice] 16846#0: exiting
+2015/05/18 19:24:25 [notice] 16845#0: signal 2 (SIGINT) received, exiting
+2015/05/18 19:24:25 [notice] 16846#0: exit
+2015/05/18 19:24:25 [notice] 16844#0: exit
+2015/05/18 19:24:25 [notice] 16843#0: signal 2 (SIGINT) received, exiting
+2015/05/18 19:24:25 [notice] 16843#0: exiting
+2015/05/18 19:24:25 [notice] 16843#0: exit
+2015/05/18 19:24:25 [notice] 16842#0: signal 17 (SIGCHLD) received
+2015/05/18 19:24:25 [notice] 16842#0: worker process 16844 exited with code 0
+2015/05/18 19:24:25 [notice] 16842#0: worker process 16846 exited with code 0
+2015/05/18 19:24:25 [notice] 16842#0: signal 29 (SIGIO) received
+2015/05/18 19:24:25 [notice] 16845#0: exiting
+2015/05/18 19:24:25 [notice] 16842#0: signal 17 (SIGCHLD) received
+2015/05/18 19:24:25 [notice] 16842#0: worker process 16843 exited with code 0
+2015/05/18 19:24:25 [notice] 16842#0: signal 29 (SIGIO) received
+2015/05/18 19:24:25 [notice] 16845#0: exit
+2015/05/18 19:24:25 [notice] 16842#0: signal 17 (SIGCHLD) received
+2015/05/18 19:24:25 [notice] 16842#0: worker process 16845 exited with code 0
+2015/05/18 19:24:25 [notice] 16842#0: exit
+2015/05/18 19:24:25 [notice] 16973#0: using the "epoll" event method
+2015/05/18 19:24:25 [notice] 16973#0: nginx/1.0.0
+2015/05/18 19:24:25 [notice] 16973#0: built by gcc 4.4.7 20120313 (Red Hat 4.4.7-11) (GCC) 
+2015/05/18 19:24:25 [notice] 16973#0: OS: Linux 2.6.32-431.el6.x86_64
+2015/05/18 19:24:25 [notice] 16973#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/05/18 19:24:25 [notice] 16973#0: start worker processes
+2015/05/18 19:24:25 [notice] 16973#0: start worker process 16974
+2015/05/18 19:24:25 [notice] 16973#0: start worker process 16975
+2015/05/18 19:24:25 [notice] 16973#0: start worker process 16976
+2015/05/18 19:24:25 [notice] 16973#0: start worker process 16977
+2015/05/18 19:30:22 [notice] 16973#0: signal 2 (SIGINT) received, exiting
+2015/05/18 19:30:22 [notice] 16976#0: signal 2 (SIGINT) received, exiting
+2015/05/18 19:30:22 [notice] 16977#0: signal 2 (SIGINT) received, exiting
+2015/05/18 19:30:22 [notice] 16975#0: signal 2 (SIGINT) received, exiting
+2015/05/18 19:30:22 [info] 16977#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 19:30:22 [info] 16976#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 19:30:22 [notice] 16977#0: exiting
+2015/05/18 19:30:22 [info] 16975#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 19:30:22 [notice] 16976#0: exiting
+2015/05/18 19:30:22 [notice] 16975#0: exiting
+2015/05/18 19:30:22 [notice] 16976#0: exit
+2015/05/18 19:30:22 [notice] 16977#0: exit
+2015/05/18 19:30:22 [notice] 16975#0: exit
+2015/05/18 19:30:22 [notice] 16973#0: signal 17 (SIGCHLD) received
+2015/05/18 19:30:22 [notice] 16973#0: worker process 16975 exited with code 0
+2015/05/18 19:30:22 [notice] 16973#0: signal 17 (SIGCHLD) received
+2015/05/18 19:30:22 [notice] 16973#0: worker process 16976 exited with code 0
+2015/05/18 19:30:22 [notice] 16974#0: signal 2 (SIGINT) received, exiting
+2015/05/18 19:30:22 [notice] 16973#0: worker process 16977 exited with code 0
+2015/05/18 19:30:22 [notice] 16973#0: signal 17 (SIGCHLD) received
+2015/05/18 19:30:22 [notice] 16973#0: signal 29 (SIGIO) received
+2015/05/18 19:30:22 [notice] 16974#0: exiting
+2015/05/18 19:30:22 [notice] 16973#0: signal 29 (SIGIO) received
+2015/05/18 19:30:22 [notice] 16974#0: exit
+2015/05/18 19:30:22 [notice] 16973#0: signal 17 (SIGCHLD) received
+2015/05/18 19:30:22 [notice] 16973#0: worker process 16974 exited with code 0
+2015/05/18 19:30:22 [notice] 16973#0: exit
+2015/05/18 19:30:22 [notice] 17202#0: using the "epoll" event method
+2015/05/18 19:30:22 [notice] 17202#0: nginx/1.0.0
+2015/05/18 19:30:22 [notice] 17202#0: built by gcc 4.4.7 20120313 (Red Hat 4.4.7-11) (GCC) 
+2015/05/18 19:30:22 [notice] 17202#0: OS: Linux 2.6.32-431.el6.x86_64
+2015/05/18 19:30:22 [notice] 17202#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/05/18 19:30:22 [notice] 17202#0: start worker processes
+2015/05/18 19:30:22 [notice] 17202#0: start worker process 17203
+2015/05/18 19:30:22 [notice] 17202#0: start worker process 17204
+2015/05/18 19:30:22 [notice] 17202#0: start worker process 17205
+2015/05/18 19:30:22 [notice] 17202#0: start worker process 17206
+2015/05/18 19:30:52 [notice] 17204#0: signal 2 (SIGINT) received, exiting
+2015/05/18 19:30:52 [notice] 17206#0: signal 2 (SIGINT) received, exiting
+2015/05/18 19:30:52 [notice] 17202#0: signal 2 (SIGINT) received, exiting
+2015/05/18 19:30:52 [info] 17204#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 19:30:52 [info] 17206#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 19:30:52 [notice] 17204#0: exiting
+2015/05/18 19:30:52 [notice] 17206#0: exiting
+2015/05/18 19:30:52 [notice] 17203#0: signal 2 (SIGINT) received, exiting
+2015/05/18 19:30:52 [notice] 17203#0: exiting
+2015/05/18 19:30:52 [notice] 17203#0: exit
+2015/05/18 19:30:52 [notice] 17204#0: exit
+2015/05/18 19:30:52 [notice] 17206#0: exit
+2015/05/18 19:30:52 [notice] 17202#0: signal 17 (SIGCHLD) received
+2015/05/18 19:30:52 [notice] 17205#0: signal 2 (SIGINT) received, exiting
+2015/05/18 19:30:52 [notice] 17202#0: worker process 17203 exited with code 0
+2015/05/18 19:30:52 [notice] 17205#0: exiting
+2015/05/18 19:30:52 [notice] 17202#0: worker process 17204 exited with code 0
+2015/05/18 19:30:52 [notice] 17202#0: worker process 17206 exited with code 0
+2015/05/18 19:30:52 [notice] 17202#0: signal 29 (SIGIO) received
+2015/05/18 19:30:52 [notice] 17202#0: signal 17 (SIGCHLD) received
+2015/05/18 19:30:52 [notice] 17205#0: exit
+2015/05/18 19:30:52 [notice] 17202#0: signal 17 (SIGCHLD) received
+2015/05/18 19:30:52 [notice] 17202#0: worker process 17205 exited with code 0
+2015/05/18 19:30:52 [notice] 17202#0: exit
+2015/05/18 19:30:53 [notice] 17229#0: using the "epoll" event method
+2015/05/18 19:30:53 [notice] 17229#0: nginx/1.0.0
+2015/05/18 19:30:53 [notice] 17229#0: built by gcc 4.4.7 20120313 (Red Hat 4.4.7-11) (GCC) 
+2015/05/18 19:30:53 [notice] 17229#0: OS: Linux 2.6.32-431.el6.x86_64
+2015/05/18 19:30:53 [notice] 17229#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/05/18 19:30:53 [notice] 17229#0: start worker processes
+2015/05/18 19:30:53 [notice] 17229#0: start worker process 17230
+2015/05/18 19:30:53 [notice] 17229#0: start worker process 17231
+2015/05/18 19:30:53 [notice] 17229#0: start worker process 17232
+2015/05/18 19:30:53 [notice] 17229#0: start worker process 17233
+2015/05/18 20:16:09 [info] 17230#0: *96 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 20:16:09 [info] 17230#0: *103 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 20:16:09 [info] 17230#0: *102 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 20:16:09 [info] 17230#0: *101 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 20:16:09 [info] 17230#0: *100 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 20:16:09 [info] 17230#0: *99 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 20:16:09 [info] 17230#0: *98 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 20:16:09 [info] 17230#0: *97 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/18 20:26:38 [notice] 17230#0: signal 2 (SIGINT) received, exiting
+2015/05/18 20:26:38 [notice] 17232#0: signal 2 (SIGINT) received, exiting
+2015/05/18 20:26:38 [notice] 17233#0: signal 2 (SIGINT) received, exiting
+2015/05/18 20:26:38 [info] 17232#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 20:26:38 [info] 17233#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 20:26:38 [notice] 17232#0: exiting
+2015/05/18 20:26:38 [notice] 17233#0: exiting
+2015/05/18 20:26:38 [info] 17230#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 20:26:38 [notice] 17230#0: exiting
+2015/05/18 20:26:38 [notice] 17229#0: signal 2 (SIGINT) received, exiting
+2015/05/18 20:26:38 [notice] 17232#0: exit
+2015/05/18 20:26:38 [notice] 17233#0: exit
+2015/05/18 20:26:38 [notice] 17230#0: exit
+2015/05/18 20:26:38 [notice] 17231#0: signal 2 (SIGINT) received, exiting
+2015/05/18 20:26:38 [notice] 17231#0: exiting
+2015/05/18 20:26:38 [notice] 17229#0: signal 17 (SIGCHLD) received
+2015/05/18 20:26:38 [notice] 17231#0: exit
+2015/05/18 20:26:38 [notice] 17229#0: worker process 17232 exited with code 0
+2015/05/18 20:26:38 [notice] 17229#0: signal 29 (SIGIO) received
+2015/05/18 20:26:38 [notice] 17229#0: signal 17 (SIGCHLD) received
+2015/05/18 20:26:38 [notice] 17229#0: worker process 17230 exited with code 0
+2015/05/18 20:26:38 [notice] 17229#0: signal 29 (SIGIO) received
+2015/05/18 20:26:38 [notice] 17229#0: signal 17 (SIGCHLD) received
+2015/05/18 20:26:38 [notice] 17229#0: worker process 17231 exited with code 0
+2015/05/18 20:26:38 [notice] 17229#0: signal 29 (SIGIO) received
+2015/05/18 20:26:38 [notice] 17229#0: signal 17 (SIGCHLD) received
+2015/05/18 20:26:38 [notice] 17229#0: worker process 17233 exited with code 0
+2015/05/18 20:26:38 [notice] 17229#0: exit
