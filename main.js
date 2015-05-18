@@ -1,3 +1,4 @@
+
 document.write("<h1>This is for me or that</h1>");
 document.write("<p>This is great for that</p>");
 
@@ -307,4 +308,17 @@ function checkCookie()
 		}
 	}
 }
+
+//$("#h01").html("Hello jQuery");
+
+console.log("7.25:", Math.round(7.25))
+
+document.write("<br>");
+document.write("sjdlfjdlfd:", Math.round(7.25), "<br>");
+document.write("max(2,4):", Math.max(2,4), "<br>");
+
+//window.open("www.baidu.com", "win2");
+window.status = "put your message here"
+
+//$("p").css("background-color","red");
 

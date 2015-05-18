@@ -1,0 +1,545 @@
+2015/05/16 21:22:30 [emerg] 21057#0: open() ".//conf/mime.types" failed (2: No such file or directory) in .//conf/nginx.conf:22
+2015/05/16 21:24:39 [emerg] 21204#0: bind() to 0.0.0.0:9000 failed (98: Address already in use)
+2015/05/16 21:24:39 [notice] 21204#0: try again to bind() after 500ms
+2015/05/16 21:24:39 [emerg] 21204#0: bind() to 0.0.0.0:9000 failed (98: Address already in use)
+2015/05/16 21:24:39 [notice] 21204#0: try again to bind() after 500ms
+2015/05/16 21:24:39 [emerg] 21204#0: bind() to 0.0.0.0:9000 failed (98: Address already in use)
+2015/05/16 21:24:39 [notice] 21204#0: try again to bind() after 500ms
+2015/05/16 21:24:58 [notice] 21248#0: using the "epoll" event method
+2015/05/16 21:24:58 [notice] 21248#0: nginx/1.0.0
+2015/05/16 21:24:58 [notice] 21248#0: built by gcc 4.4.7 20120313 (Red Hat 4.4.7-11) (GCC) 
+2015/05/16 21:24:58 [notice] 21248#0: OS: Linux 2.6.32-431.el6.x86_64
+2015/05/16 21:24:58 [notice] 21248#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/05/16 21:25:03 [info] 21248#0: *1 client 127.0.0.1 closed keepalive connection
+2015/05/16 21:25:08 [notice] 21248#0: signal 28 (SIGWINCH) received, stop accepting connections
+2015/05/16 21:25:08 [info] 21248#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/16 21:25:09 [notice] 21248#0: signal 2 (SIGINT) received, exiting
+2015/05/16 21:25:09 [info] 21248#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/16 21:25:09 [notice] 21248#0: exit
+2015/05/16 21:27:19 [notice] 21492#0: using the "epoll" event method
+2015/05/16 21:27:19 [notice] 21492#0: nginx/1.0.0
+2015/05/16 21:27:19 [notice] 21492#0: built by gcc 4.4.7 20120313 (Red Hat 4.4.7-11) (GCC) 
+2015/05/16 21:27:19 [notice] 21492#0: OS: Linux 2.6.32-431.el6.x86_64
+2015/05/16 21:27:19 [notice] 21492#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/05/16 21:27:19 [notice] 21492#0: start worker processes
+2015/05/16 21:27:19 [notice] 21492#0: start worker process 21493
+2015/05/16 21:27:19 [notice] 21492#0: start worker process 21494
+2015/05/16 21:27:19 [notice] 21492#0: start worker process 21495
+2015/05/16 21:27:19 [notice] 21492#0: start worker process 21496
+2015/05/16 21:27:30 [info] 21493#0: *1 client 127.0.0.1 closed keepalive connection
+2015/05/16 21:30:01 [error] 21493#0: *2 open() ".//./favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:9000"
+2015/05/16 21:31:03 [error] 21493#0: *3 open() ".//./favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:9000"
+2015/05/16 21:31:13 [info] 21493#0: *4 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:35:03 [info] 21493#0: *48 client 127.0.0.1 closed keepalive connection
+2015/05/16 21:35:48 [info] 21493#0: *50 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:36:48 [error] 21493#0: *57 open() ".//./favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:9000"
+2015/05/16 21:37:08 [info] 21493#0: *58 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:37:16 [info] 21493#0: *60 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:37:51 [info] 21493#0: *62 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:44:18 [info] 21493#0: *68 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:46:09 [info] 21493#0: *72 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:46:09 [info] 21493#0: *71 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:46:09 [info] 21493#0: *81 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:46:09 [info] 21493#0: *80 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:46:09 [info] 21493#0: *79 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:46:09 [info] 21493#0: *78 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:46:09 [info] 21493#0: *77 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:46:09 [info] 21493#0: *76 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:46:09 [info] 21493#0: *75 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:46:09 [info] 21493#0: *74 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:46:09 [info] 21493#0: *73 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:47:23 [info] 21493#0: *84 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:47:34 [info] 21493#0: *82 client 127.0.0.1 closed keepalive connection
+2015/05/16 21:47:40 [info] 21493#0: *85 client 127.0.0.1 closed keepalive connection
+2015/05/16 21:47:40 [info] 21493#0: *86 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:49:26 [info] 21493#0: *92 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:49:26 [info] 21493#0: *98 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:49:26 [info] 21493#0: *97 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:49:26 [info] 21493#0: *96 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:49:26 [info] 21493#0: *95 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:49:26 [info] 21493#0: *94 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:49:26 [info] 21493#0: *93 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:50:27 [error] 21493#0: *91 ".//./new/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /new/ HTTP/1.1", host: "0.0.0.0:9000"
+2015/05/16 21:50:36 [info] 21493#0: *99 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:50:36 [info] 21493#0: *102 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:50:36 [info] 21493#0: *101 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:50:36 [info] 21493#0: *100 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:50:46 [info] 21493#0: *103 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:51:46 [info] 21493#0: *104 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:51:46 [info] 21493#0: *107 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:51:46 [info] 21493#0: *106 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:51:46 [info] 21493#0: *105 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:52:46 [info] 21493#0: *109 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:52:46 [info] 21493#0: *112 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:52:46 [info] 21493#0: *111 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 21:52:46 [info] 21493#0: *110 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:36:55 [notice] 21492#0: signal 2 (SIGINT) received, exiting
+2015/05/16 22:36:55 [notice] 21495#0: signal 2 (SIGINT) received, exiting
+2015/05/16 22:36:55 [notice] 21496#0: signal 2 (SIGINT) received, exiting
+2015/05/16 22:36:55 [info] 21495#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/16 22:36:55 [notice] 21495#0: exiting
+2015/05/16 22:36:55 [info] 21496#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/16 22:36:55 [notice] 21496#0: exiting
+2015/05/16 22:36:55 [notice] 21496#0: exit
+2015/05/16 22:36:55 [notice] 21495#0: exit
+2015/05/16 22:36:55 [notice] 21492#0: signal 17 (SIGCHLD) received
+2015/05/16 22:36:55 [notice] 21494#0: signal 2 (SIGINT) received, exiting
+2015/05/16 22:36:55 [notice] 21494#0: exiting
+2015/05/16 22:36:55 [notice] 21492#0: worker process 21495 exited with code 0
+2015/05/16 22:36:55 [notice] 21492#0: worker process 21496 exited with code 0
+2015/05/16 22:36:55 [notice] 21494#0: exit
+2015/05/16 22:36:55 [notice] 21493#0: signal 2 (SIGINT) received, exiting
+2015/05/16 22:36:55 [notice] 21493#0: exiting
+2015/05/16 22:36:55 [notice] 21493#0: exit
+2015/05/16 22:36:55 [notice] 21492#0: signal 29 (SIGIO) received
+2015/05/16 22:36:55 [notice] 21492#0: signal 17 (SIGCHLD) received
+2015/05/16 22:36:55 [notice] 21492#0: worker process 21494 exited with code 0
+2015/05/16 22:36:55 [notice] 21492#0: signal 17 (SIGCHLD) received
+2015/05/16 22:36:55 [notice] 21492#0: worker process 21493 exited with code 0
+2015/05/16 22:36:55 [notice] 21492#0: exit
+2015/05/16 22:36:56 [notice] 24541#0: using the "epoll" event method
+2015/05/16 22:36:56 [notice] 24541#0: nginx/1.0.0
+2015/05/16 22:36:56 [notice] 24541#0: built by gcc 4.4.7 20120313 (Red Hat 4.4.7-11) (GCC) 
+2015/05/16 22:36:56 [notice] 24541#0: OS: Linux 2.6.32-431.el6.x86_64
+2015/05/16 22:36:56 [notice] 24541#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/05/16 22:36:56 [notice] 24541#0: start worker processes
+2015/05/16 22:36:56 [notice] 24541#0: start worker process 24542
+2015/05/16 22:36:56 [notice] 24541#0: start worker process 24543
+2015/05/16 22:36:56 [notice] 24541#0: start worker process 24544
+2015/05/16 22:36:56 [notice] 24541#0: start worker process 24545
+2015/05/16 22:37:08 [notice] 24545#0: signal 2 (SIGINT) received, exiting
+2015/05/16 22:37:08 [notice] 24542#0: signal 2 (SIGINT) received, exiting
+2015/05/16 22:37:08 [notice] 24543#0: signal 2 (SIGINT) received, exiting
+2015/05/16 22:37:08 [notice] 24541#0: signal 2 (SIGINT) received, exiting
+2015/05/16 22:37:08 [info] 24545#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/16 22:37:08 [notice] 24545#0: exiting
+2015/05/16 22:37:08 [info] 24543#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/16 22:37:08 [notice] 24543#0: exiting
+2015/05/16 22:37:08 [info] 24542#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/16 22:37:08 [notice] 24542#0: exiting
+2015/05/16 22:37:08 [notice] 24545#0: exit
+2015/05/16 22:37:08 [notice] 24543#0: exit
+2015/05/16 22:37:08 [notice] 24542#0: exit
+2015/05/16 22:37:08 [notice] 24541#0: signal 17 (SIGCHLD) received
+2015/05/16 22:37:08 [notice] 24541#0: worker process 24543 exited with code 0
+2015/05/16 22:37:08 [notice] 24541#0: signal 29 (SIGIO) received
+2015/05/16 22:37:08 [notice] 24541#0: signal 17 (SIGCHLD) received
+2015/05/16 22:37:08 [notice] 24541#0: worker process 24542 exited with code 0
+2015/05/16 22:37:08 [notice] 24544#0: signal 2 (SIGINT) received, exiting
+2015/05/16 22:37:08 [notice] 24541#0: worker process 24545 exited with code 0
+2015/05/16 22:37:08 [notice] 24541#0: signal 17 (SIGCHLD) received
+2015/05/16 22:37:08 [notice] 24541#0: signal 29 (SIGIO) received
+2015/05/16 22:37:08 [notice] 24544#0: exiting
+2015/05/16 22:37:08 [notice] 24544#0: exit
+2015/05/16 22:37:08 [notice] 24541#0: signal 17 (SIGCHLD) received
+2015/05/16 22:37:08 [notice] 24541#0: worker process 24544 exited with code 0
+2015/05/16 22:37:08 [notice] 24541#0: exit
+2015/05/16 22:37:08 [notice] 24585#0: using the "epoll" event method
+2015/05/16 22:37:08 [notice] 24585#0: nginx/1.0.0
+2015/05/16 22:37:08 [notice] 24585#0: built by gcc 4.4.7 20120313 (Red Hat 4.4.7-11) (GCC) 
+2015/05/16 22:37:08 [notice] 24585#0: OS: Linux 2.6.32-431.el6.x86_64
+2015/05/16 22:37:08 [notice] 24585#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/05/16 22:37:08 [notice] 24585#0: start worker processes
+2015/05/16 22:37:08 [notice] 24585#0: start worker process 24586
+2015/05/16 22:37:08 [notice] 24585#0: start worker process 24587
+2015/05/16 22:37:08 [notice] 24585#0: start worker process 24588
+2015/05/16 22:37:08 [notice] 24585#0: start worker process 24589
+2015/05/16 22:37:18 [error] 24586#0: *2 open() ".//./favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:8080"
+2015/05/16 22:37:20 [error] 24586#0: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2015/05/16 22:37:20 [error] 24586#0: *2 open() ".//html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2015/05/16 22:37:51 [error] 24586#0: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2015/05/16 22:37:51 [error] 24586#0: *2 open() ".//html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2015/05/16 22:38:07 [error] 24586#0: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2015/05/16 22:38:07 [error] 24586#0: *2 open() ".//html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2015/05/16 22:38:08 [info] 24586#0: *4 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:38:08 [info] 24586#0: *6 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:38:08 [info] 24586#0: *5 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:38:46 [error] 24586#0: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2015/05/16 22:38:46 [error] 24586#0: *2 open() ".//html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2015/05/16 22:38:47 [error] 24586#0: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2015/05/16 22:38:47 [error] 24586#0: *2 open() ".//html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2015/05/16 22:38:47 [error] 24586#0: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2015/05/16 22:38:47 [error] 24586#0: *2 open() ".//html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2015/05/16 22:38:47 [error] 24586#0: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2015/05/16 22:38:47 [error] 24586#0: *2 open() ".//html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2015/05/16 22:38:51 [error] 24586#0: *17 open() ".//./favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:8080"
+2015/05/16 22:38:51 [error] 24586#0: *17 open() ".//./favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:8080"
+2015/05/16 22:38:53 [error] 24586#0: *17 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2015/05/16 22:38:53 [error] 24586#0: *17 open() ".//html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2015/05/16 22:38:53 [error] 24586#0: *17 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2015/05/16 22:38:53 [error] 24586#0: *17 open() ".//html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2015/05/16 22:38:53 [error] 24586#0: *17 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2015/05/16 22:38:53 [error] 24586#0: *17 open() ".//html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2015/05/16 22:38:54 [error] 24586#0: *17 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2015/05/16 22:38:54 [error] 24586#0: *17 open() ".//html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "0.0.0.0:8080", referrer: "http://0.0.0.0:8080/"
+2015/05/16 22:38:57 [info] 24586#0: *18 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:38:58 [info] 24586#0: *9 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:38:58 [info] 24586#0: *12 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:38:58 [info] 24586#0: *11 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:38:58 [info] 24586#0: *10 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:41:44 [info] 24586#0: *24 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:41:44 [info] 24586#0: *28 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:41:44 [info] 24586#0: *27 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:41:44 [info] 24586#0: *26 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:41:44 [info] 24586#0: *25 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:43:02 [notice] 24586#0: signal 2 (SIGINT) received, exiting
+2015/05/16 22:43:02 [notice] 24585#0: signal 2 (SIGINT) received, exiting
+2015/05/16 22:43:02 [notice] 24588#0: signal 2 (SIGINT) received, exiting
+2015/05/16 22:43:02 [notice] 24587#0: signal 2 (SIGINT) received, exiting
+2015/05/16 22:43:02 [info] 24586#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/16 22:43:02 [info] 24588#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/16 22:43:02 [notice] 24586#0: exiting
+2015/05/16 22:43:02 [info] 24587#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/16 22:43:02 [notice] 24588#0: exiting
+2015/05/16 22:43:02 [notice] 24587#0: exiting
+2015/05/16 22:43:02 [notice] 24586#0: exit
+2015/05/16 22:43:02 [notice] 24587#0: exit
+2015/05/16 22:43:02 [notice] 24588#0: exit
+2015/05/16 22:43:02 [notice] 24589#0: signal 2 (SIGINT) received, exiting
+2015/05/16 22:43:02 [notice] 24589#0: exiting
+2015/05/16 22:43:02 [notice] 24589#0: exit
+2015/05/16 22:43:02 [notice] 24585#0: signal 17 (SIGCHLD) received
+2015/05/16 22:43:02 [notice] 24585#0: worker process 24586 exited with code 0
+2015/05/16 22:43:02 [notice] 24585#0: worker process 24587 exited with code 0
+2015/05/16 22:43:02 [notice] 24585#0: worker process 24588 exited with code 0
+2015/05/16 22:43:02 [notice] 24585#0: worker process 24589 exited with code 0
+2015/05/16 22:43:02 [notice] 24585#0: exit
+2015/05/16 22:43:02 [notice] 24999#0: using the "epoll" event method
+2015/05/16 22:43:02 [notice] 24999#0: nginx/1.0.0
+2015/05/16 22:43:02 [notice] 24999#0: built by gcc 4.4.7 20120313 (Red Hat 4.4.7-11) (GCC) 
+2015/05/16 22:43:02 [notice] 24999#0: OS: Linux 2.6.32-431.el6.x86_64
+2015/05/16 22:43:02 [notice] 24999#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/05/16 22:43:02 [notice] 24999#0: start worker processes
+2015/05/16 22:43:02 [notice] 24999#0: start worker process 25000
+2015/05/16 22:43:02 [notice] 24999#0: start worker process 25001
+2015/05/16 22:43:02 [notice] 24999#0: start worker process 25002
+2015/05/16 22:43:02 [notice] 24999#0: start worker process 25003
+2015/05/16 22:43:24 [info] 25000#0: *2 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:43:24 [info] 25000#0: *4 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:43:24 [info] 25000#0: *3 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:43:26 [error] 25000#0: *1 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:6000", host: "0.0.0.0:9000", referrer: "http://0.0.0.0:9000/"
+2015/05/16 22:43:26 [error] 25000#0: *1 open() ".//html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:6000", host: "0.0.0.0:9000", referrer: "http://0.0.0.0:9000/"
+2015/05/16 22:43:38 [error] 25000#0: *1 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:6000", host: "0.0.0.0:9000", referrer: "http://0.0.0.0:9000/"
+2015/05/16 22:43:38 [error] 25000#0: *1 open() ".//html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:6000", host: "0.0.0.0:9000", referrer: "http://0.0.0.0:9000/"
+2015/05/16 22:43:44 [info] 25000#0: *5 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:43:44 [info] 25000#0: *7 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:43:44 [info] 25000#0: *6 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:45:47 [error] 25000#0: *10 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:6000", host: "0.0.0.0:9000", referrer: "http://0.0.0.0:9000/"
+2015/05/16 22:45:47 [error] 25000#0: *10 open() ".//html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:6000", host: "0.0.0.0:9000", referrer: "http://0.0.0.0:9000/"
+2015/05/16 22:47:28 [notice] 25000#0: signal 2 (SIGINT) received, exiting
+2015/05/16 22:47:28 [notice] 24999#0: signal 2 (SIGINT) received, exiting
+2015/05/16 22:47:28 [notice] 25003#0: signal 2 (SIGINT) received, exiting
+2015/05/16 22:47:28 [notice] 25001#0: signal 2 (SIGINT) received, exiting
+2015/05/16 22:47:28 [info] 25000#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/16 22:47:28 [info] 25003#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/16 22:47:28 [notice] 25000#0: exiting
+2015/05/16 22:47:28 [info] 25001#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/16 22:47:28 [notice] 25003#0: exiting
+2015/05/16 22:47:28 [notice] 25001#0: exiting
+2015/05/16 22:47:28 [notice] 25000#0: exit
+2015/05/16 22:47:28 [notice] 25001#0: exit
+2015/05/16 22:47:28 [notice] 25003#0: exit
+2015/05/16 22:47:28 [notice] 24999#0: signal 17 (SIGCHLD) received
+2015/05/16 22:47:28 [notice] 24999#0: worker process 25000 exited with code 0
+2015/05/16 22:47:28 [notice] 24999#0: signal 29 (SIGIO) received
+2015/05/16 22:47:28 [notice] 25002#0: signal 2 (SIGINT) received, exiting
+2015/05/16 22:47:28 [notice] 24999#0: signal 17 (SIGCHLD) received
+2015/05/16 22:47:28 [notice] 25002#0: exiting
+2015/05/16 22:47:28 [notice] 24999#0: worker process 25001 exited with code 0
+2015/05/16 22:47:28 [notice] 24999#0: worker process 25003 exited with code 0
+2015/05/16 22:47:28 [notice] 25002#0: exit
+2015/05/16 22:47:28 [notice] 24999#0: signal 29 (SIGIO) received
+2015/05/16 22:47:28 [notice] 24999#0: signal 17 (SIGCHLD) received
+2015/05/16 22:47:28 [notice] 24999#0: worker process 25002 exited with code 0
+2015/05/16 22:47:28 [notice] 24999#0: exit
+2015/05/16 22:47:29 [notice] 25319#0: using the "epoll" event method
+2015/05/16 22:47:29 [notice] 25319#0: nginx/1.0.0
+2015/05/16 22:47:29 [notice] 25319#0: built by gcc 4.4.7 20120313 (Red Hat 4.4.7-11) (GCC) 
+2015/05/16 22:47:29 [notice] 25319#0: OS: Linux 2.6.32-431.el6.x86_64
+2015/05/16 22:47:29 [notice] 25319#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/05/16 22:47:29 [notice] 25319#0: start worker processes
+2015/05/16 22:47:29 [notice] 25319#0: start worker process 25320
+2015/05/16 22:47:29 [notice] 25319#0: start worker process 25321
+2015/05/16 22:47:29 [notice] 25319#0: start worker process 25322
+2015/05/16 22:47:29 [notice] 25319#0: start worker process 25323
+2015/05/16 22:47:54 [info] 25320#0: *2 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:47:54 [info] 25320#0: *4 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:47:54 [info] 25320#0: *3 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:50:14 [info] 25320#0: *7 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:50:14 [info] 25320#0: *10 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:50:14 [info] 25320#0: *9 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:50:14 [info] 25320#0: *8 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:50:54 [info] 25320#0: *16 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:50:54 [info] 25320#0: *15 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:50:54 [info] 25320#0: *19 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:50:54 [info] 25320#0: *18 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:50:54 [info] 25320#0: *17 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:52:34 [info] 25320#0: *22 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:52:34 [info] 25320#0: *26 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:52:34 [info] 25320#0: *25 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:52:34 [info] 25320#0: *24 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 22:52:34 [info] 25320#0: *23 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 23:03:09 [info] 25320#0: *29 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 23:03:09 [info] 25320#0: *33 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 23:03:09 [info] 25320#0: *32 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 23:03:09 [info] 25320#0: *31 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/16 23:03:09 [info] 25320#0: *30 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 08:52:58 [notice] 25322#0: signal 2 (SIGINT) received, exiting
+2015/05/17 08:52:58 [notice] 25323#0: signal 2 (SIGINT) received, exiting
+2015/05/17 08:52:58 [info] 25322#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/17 08:52:58 [info] 25323#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/17 08:52:58 [notice] 25322#0: exiting
+2015/05/17 08:52:58 [notice] 25323#0: exiting
+2015/05/17 08:52:58 [notice] 25322#0: exit
+2015/05/17 08:52:58 [notice] 25323#0: exit
+2015/05/17 08:52:58 [notice] 25320#0: signal 2 (SIGINT) received, exiting
+2015/05/17 08:52:58 [info] 25320#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/17 08:52:58 [notice] 25320#0: exiting
+2015/05/17 08:52:58 [notice] 25320#0: exit
+2015/05/17 08:52:58 [notice] 25321#0: signal 2 (SIGINT) received, exiting
+2015/05/17 08:52:58 [info] 25321#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/17 08:52:58 [notice] 25321#0: exiting
+2015/05/17 08:52:58 [notice] 25321#0: exit
+2015/05/17 08:52:58 [notice] 25319#0: signal 17 (SIGCHLD) received
+2015/05/17 08:52:58 [notice] 25319#0: worker process 25320 exited with code 0
+2015/05/17 08:52:58 [notice] 25319#0: worker process 25321 exited with code 0
+2015/05/17 08:52:58 [notice] 25319#0: worker process 25322 exited with code 0
+2015/05/17 08:52:58 [notice] 25319#0: worker process 25323 exited with code 0
+2015/05/17 08:52:58 [notice] 25319#0: signal 2 (SIGINT) received, exiting
+2015/05/17 08:52:58 [notice] 25319#0: exit
+2015/05/17 10:41:51 [notice] 7435#0: using the "epoll" event method
+2015/05/17 10:41:51 [notice] 7435#0: nginx/1.0.0
+2015/05/17 10:41:51 [notice] 7435#0: built by gcc 4.4.7 20120313 (Red Hat 4.4.7-11) (GCC) 
+2015/05/17 10:41:51 [notice] 7435#0: OS: Linux 2.6.32-431.el6.x86_64
+2015/05/17 10:41:51 [notice] 7435#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/05/17 10:41:51 [notice] 7435#0: start worker processes
+2015/05/17 10:41:51 [notice] 7435#0: start worker process 7436
+2015/05/17 10:41:51 [notice] 7435#0: start worker process 7437
+2015/05/17 10:41:51 [notice] 7435#0: start worker process 7438
+2015/05/17 10:41:51 [notice] 7435#0: start worker process 7439
+2015/05/17 10:41:55 [error] 7437#0: *1 open() ".//./favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:9000"
+2015/05/17 10:41:57 [error] 7437#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "http://127.0.0.1:6000/index.php", host: "0.0.0.0:9000", referrer: "http://0.0.0.0:9000/"
+2015/05/17 10:41:57 [error] 7437#0: *1 open() ".//html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "POST /index.php HTTP/1.1", upstream: "http://127.0.0.1:6000/index.php", host: "0.0.0.0:9000", referrer: "http://0.0.0.0:9000/"
+2015/05/17 10:42:14 [info] 7437#0: *3 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:42:14 [info] 7437#0: *2 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:42:14 [info] 7437#0: *5 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:42:14 [info] 7437#0: *4 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:45:28 [error] 7437#0: *10 open() ".//./ajax/test1.txt" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /ajax/test1.txt HTTP/1.1", host: "0.0.0.0:9000", referrer: "http://0.0.0.0:9000/"
+2015/05/17 10:45:37 [info] 7437#0: *11 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:45:37 [info] 7437#0: *13 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:45:37 [info] 7437#0: *12 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:46:07 [info] 7437#0: *14 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:46:07 [info] 7437#0: *15 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:46:07 [info] 7437#0: *16 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:46:27 [info] 7436#0: *17 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:46:27 [info] 7436#0: *19 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:46:27 [info] 7436#0: *18 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:46:57 [info] 7436#0: *22 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:46:57 [info] 7436#0: *21 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:46:57 [info] 7436#0: *23 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:53:18 [info] 7436#0: *25 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:53:18 [info] 7436#0: *27 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:53:18 [info] 7436#0: *26 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:58:19 [info] 7436#0: *29 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:58:19 [info] 7436#0: *31 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:58:19 [info] 7436#0: *30 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:58:49 [info] 7436#0: *32 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:58:49 [info] 7436#0: *34 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:58:49 [info] 7436#0: *33 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:59:19 [info] 7436#0: *36 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:59:19 [info] 7436#0: *39 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:59:19 [info] 7436#0: *38 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:59:19 [info] 7436#0: *37 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:59:59 [info] 7436#0: *40 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:59:59 [info] 7436#0: *42 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 10:59:59 [info] 7436#0: *41 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:00:19 [info] 7436#0: *43 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:00:19 [info] 7436#0: *45 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:00:19 [info] 7436#0: *44 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:00:39 [info] 7436#0: *46 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:00:39 [info] 7436#0: *48 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:00:39 [info] 7436#0: *47 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:00:59 [info] 7436#0: *50 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:00:59 [info] 7436#0: *49 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:00:59 [info] 7436#0: *51 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:02:29 [info] 7436#0: *55 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:02:29 [info] 7436#0: *54 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:03:54 [info] 7436#0: *59 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:03:54 [info] 7436#0: *58 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:04:24 [info] 7436#0: *60 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:04:24 [info] 7436#0: *61 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:08:56 [info] 7436#0: *64 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:08:56 [info] 7436#0: *67 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:08:56 [info] 7436#0: *66 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:08:56 [info] 7436#0: *65 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:09:46 [info] 7436#0: *68 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:09:46 [info] 7436#0: *72 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:09:46 [info] 7436#0: *71 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:09:46 [info] 7436#0: *70 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:09:46 [info] 7436#0: *69 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:11:48 [info] 7436#0: *74 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:11:48 [info] 7436#0: *78 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:11:48 [info] 7436#0: *77 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:11:48 [info] 7436#0: *76 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:11:48 [info] 7436#0: *75 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:12:38 [info] 7436#0: *79 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:12:38 [info] 7436#0: *82 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:12:38 [info] 7436#0: *81 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:12:38 [info] 7436#0: *80 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:13:08 [info] 7436#0: *83 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:13:08 [info] 7436#0: *85 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:13:08 [info] 7436#0: *84 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:21:52 [info] 7436#0: *88 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:30:23 [info] 7436#0: *91 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:30:23 [info] 7436#0: *92 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:30:43 [info] 7436#0: *94 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:30:43 [info] 7436#0: *93 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:32:30 [error] 7436#0: *95 open() ".//./i/song.ogg" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /i/song.ogg HTTP/1.1", host: "0.0.0.0:9000", referrer: "http://0.0.0.0:9000/"
+2015/05/17 11:32:34 [error] 7436#0: *95 open() ".//./i/song.ogg" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /i/song.ogg HTTP/1.1", host: "0.0.0.0:9000", referrer: "http://0.0.0.0:9000/"
+2015/05/17 11:32:36 [error] 7436#0: *95 open() ".//./i/song.ogg" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /i/song.ogg HTTP/1.1", host: "0.0.0.0:9000", referrer: "http://0.0.0.0:9000/"
+2015/05/17 11:32:47 [info] 7436#0: *96 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:32:47 [info] 7436#0: *98 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:32:47 [info] 7436#0: *97 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:33:17 [info] 7436#0: *99 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:33:17 [info] 7436#0: *101 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:33:17 [info] 7436#0: *100 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:42:26 [error] 7436#0: *106 open() ".//./favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0:9000"
+2015/05/17 11:42:39 [info] 7436#0: *103 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:42:39 [info] 7436#0: *105 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:42:39 [info] 7436#0: *104 client closed prematurely connection while reading client request line, client: 127.0.0.1, server: localhost
+2015/05/17 11:45:19 [notice] 7435#0: signal 28 (SIGWINCH) received, stop accepting connections
+2015/05/17 11:45:19 [notice] 7439#0: signal 28 (SIGWINCH) received, shutting down
+2015/05/17 11:45:19 [notice] 7437#0: signal 28 (SIGWINCH) received, shutting down
+2015/05/17 11:45:19 [info] 7437#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/17 11:45:19 [info] 7439#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/17 11:45:19 [notice] 7437#0: gracefully shutting down
+2015/05/17 11:45:19 [notice] 7439#0: gracefully shutting down
+2015/05/17 11:45:19 [notice] 7437#0: exiting
+2015/05/17 11:45:19 [notice] 7439#0: exiting
+2015/05/17 11:45:19 [alert] 7439#0: aborting
+2015/05/17 11:45:19 [alert] 7437#0: aborting
+2015/05/17 11:45:19 [notice] 7439#0: exit
+2015/05/17 11:45:19 [notice] 7437#0: exit
+2015/05/17 11:45:19 [notice] 7435#0: signal 17 (SIGCHLD) received
+2015/05/17 11:45:19 [notice] 7438#0: signal 28 (SIGWINCH) received, shutting down
+2015/05/17 11:45:19 [notice] 7436#0: signal 28 (SIGWINCH) received, shutting down
+2015/05/17 11:45:19 [notice] 7438#0: gracefully shutting down
+2015/05/17 11:45:19 [notice] 7436#0: gracefully shutting down
+2015/05/17 11:45:19 [notice] 7438#0: exiting
+2015/05/17 11:45:19 [alert] 7438#0: aborting
+2015/05/17 11:45:19 [notice] 7435#0: worker process 7437 exited with code 0
+2015/05/17 11:45:19 [notice] 7438#0: exit
+2015/05/17 11:45:19 [notice] 7436#0: exiting
+2015/05/17 11:45:19 [alert] 7436#0: aborting
+2015/05/17 11:45:19 [notice] 7435#0: worker process 7439 exited with code 0
+2015/05/17 11:45:19 [notice] 7436#0: exit
+2015/05/17 11:45:19 [notice] 7435#0: signal 29 (SIGIO) received
+2015/05/17 11:45:19 [notice] 7435#0: signal 17 (SIGCHLD) received
+2015/05/17 11:45:19 [notice] 7435#0: worker process 7438 exited with code 0
+2015/05/17 11:45:19 [notice] 7435#0: signal 17 (SIGCHLD) received
+2015/05/17 11:45:19 [notice] 7435#0: worker process 7436 exited with code 0
+2015/05/17 11:45:38 [notice] 7435#0: signal 2 (SIGINT) received, exiting
+2015/05/17 11:45:38 [notice] 7435#0: exit
+2015/05/17 11:45:38 [notice] 12538#0: using the "epoll" event method
+2015/05/17 11:45:38 [notice] 12538#0: nginx/1.0.0
+2015/05/17 11:45:38 [notice] 12538#0: built by gcc 4.4.7 20120313 (Red Hat 4.4.7-11) (GCC) 
+2015/05/17 11:45:38 [notice] 12538#0: OS: Linux 2.6.32-431.el6.x86_64
+2015/05/17 11:45:38 [notice] 12538#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/05/17 11:45:38 [notice] 12538#0: start worker processes
+2015/05/17 11:45:38 [notice] 12538#0: start worker process 12539
+2015/05/17 11:45:38 [notice] 12538#0: start worker process 12540
+2015/05/17 11:45:38 [notice] 12538#0: start worker process 12541
+2015/05/17 11:45:38 [notice] 12538#0: start worker process 12542
+2015/05/18 11:08:17 [notice] 12542#0: signal 1 (SIGHUP) received, ignoring
+2015/05/18 11:08:17 [info] 12542#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 11:08:17 [notice] 12539#0: signal 1 (SIGHUP) received, ignoring
+2015/05/18 11:08:17 [info] 12539#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 11:08:17 [notice] 12541#0: signal 1 (SIGHUP) received, ignoring
+2015/05/18 11:08:17 [info] 12541#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 11:08:17 [notice] 12541#0: signal 1 (SIGHUP) received, ignoring
+2015/05/18 11:08:17 [info] 12541#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 11:08:17 [notice] 12538#0: signal 1 (SIGHUP) received, reconfiguring
+2015/05/18 11:08:17 [notice] 12540#0: signal 1 (SIGHUP) received, ignoring
+2015/05/18 11:08:17 [notice] 12539#0: signal 1 (SIGHUP) received, ignoring
+2015/05/18 11:08:17 [info] 12539#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 11:08:17 [notice] 12538#0: reconfiguring
+2015/05/18 11:08:17 [info] 12540#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 11:08:17 [notice] 12538#0: using the "epoll" event method
+2015/05/18 11:08:17 [notice] 12538#0: start worker processes
+2015/05/18 11:08:17 [notice] 12538#0: start worker process 31431
+2015/05/18 11:08:17 [notice] 12542#0: signal 1 (SIGHUP) received, ignoring
+2015/05/18 11:08:17 [notice] 12538#0: start worker process 31432
+2015/05/18 11:08:17 [notice] 12538#0: start worker process 31433
+2015/05/18 11:08:17 [notice] 12538#0: start worker process 31434
+2015/05/18 11:08:17 [notice] 12539#0: gracefully shutting down
+2015/05/18 11:08:17 [notice] 12541#0: gracefully shutting down
+2015/05/18 11:08:17 [notice] 12542#0: gracefully shutting down
+2015/05/18 11:08:17 [notice] 12539#0: exiting
+2015/05/18 11:08:17 [notice] 12541#0: exiting
+2015/05/18 11:08:17 [notice] 12542#0: exiting
+2015/05/18 11:08:17 [notice] 12539#0: exit
+2015/05/18 11:08:17 [notice] 12541#0: exit
+2015/05/18 11:08:17 [notice] 12542#0: exit
+2015/05/18 11:08:17 [notice] 12540#0: gracefully shutting down
+2015/05/18 11:08:17 [notice] 12540#0: exiting
+2015/05/18 11:08:17 [notice] 12540#0: exit
+2015/05/18 11:08:17 [notice] 12538#0: signal 17 (SIGCHLD) received
+2015/05/18 11:08:17 [notice] 12538#0: worker process 12539 exited with code 0
+2015/05/18 11:08:17 [notice] 12538#0: worker process 12540 exited with code 0
+2015/05/18 11:08:17 [notice] 12538#0: worker process 12541 exited with code 0
+2015/05/18 11:08:17 [notice] 12538#0: signal 1 (SIGHUP) received, reconfiguring
+2015/05/18 11:08:17 [notice] 12538#0: reconfiguring
+2015/05/18 11:08:17 [notice] 12538#0: using the "epoll" event method
+2015/05/18 11:08:17 [notice] 12538#0: start worker processes
+2015/05/18 11:08:17 [notice] 12538#0: start worker process 31435
+2015/05/18 11:08:17 [notice] 12538#0: start worker process 31436
+2015/05/18 11:08:17 [notice] 12538#0: start worker process 31437
+2015/05/18 11:08:17 [notice] 12538#0: start worker process 31438
+2015/05/18 11:08:17 [notice] 31431#0: gracefully shutting down
+2015/05/18 11:08:17 [notice] 31432#0: gracefully shutting down
+2015/05/18 11:08:17 [notice] 12538#0: signal 29 (SIGIO) received
+2015/05/18 11:08:17 [notice] 12538#0: signal 17 (SIGCHLD) received
+2015/05/18 11:08:17 [notice] 31431#0: exiting
+2015/05/18 11:08:17 [notice] 31432#0: exiting
+2015/05/18 11:08:17 [notice] 12538#0: worker process 12542 exited with code 0
+2015/05/18 11:08:17 [notice] 31431#0: exit
+2015/05/18 11:08:17 [notice] 31432#0: exit
+2015/05/18 11:08:17 [notice] 31433#0: gracefully shutting down
+2015/05/18 11:08:17 [notice] 31433#0: exiting
+2015/05/18 11:08:17 [notice] 31433#0: exit
+2015/05/18 11:08:17 [notice] 12538#0: signal 17 (SIGCHLD) received
+2015/05/18 11:08:17 [notice] 31434#0: gracefully shutting down
+2015/05/18 11:08:17 [notice] 12538#0: worker process 31431 exited with code 0
+2015/05/18 11:08:17 [notice] 12538#0: worker process 31432 exited with code 0
+2015/05/18 11:08:17 [notice] 12538#0: worker process 31433 exited with code 0
+2015/05/18 11:08:17 [notice] 31434#0: exiting
+2015/05/18 11:08:17 [notice] 31434#0: exit
+2015/05/18 11:08:17 [notice] 12538#0: signal 17 (SIGCHLD) received
+2015/05/18 11:08:17 [notice] 12538#0: worker process 31434 exited with code 0
+2015/05/18 11:08:17 [notice] 12538#0: signal 29 (SIGIO) received
+2015/05/18 11:08:17 [notice] 12538#0: signal 29 (SIGIO) received
+2015/05/18 11:08:32 [notice] 31436#0: signal 15 (SIGTERM) received, exiting
+2015/05/18 11:08:32 [info] 31436#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 11:08:32 [notice] 31436#0: exiting
+2015/05/18 11:08:32 [notice] 31436#0: exit
+2015/05/18 11:08:32 [notice] 12538#0: signal 17 (SIGCHLD) received
+2015/05/18 11:08:32 [notice] 31437#0: signal 15 (SIGTERM) received, exiting
+2015/05/18 11:08:32 [notice] 12538#0: signal 17 (SIGCHLD) received
+2015/05/18 11:08:32 [notice] 12538#0: signal 15 (SIGTERM) received, exiting
+2015/05/18 11:08:32 [info] 31437#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 11:08:32 [notice] 31437#0: exiting
+2015/05/18 11:08:32 [notice] 31437#0: exit
+2015/05/18 11:08:32 [notice] 31435#0: signal 15 (SIGTERM) received, exiting
+2015/05/18 11:08:32 [info] 31435#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 11:08:32 [notice] 31435#0: exiting
+2015/05/18 11:08:32 [notice] 31435#0: exit
+2015/05/18 11:08:32 [notice] 31438#0: signal 15 (SIGTERM) received, exiting
+2015/05/18 11:08:32 [info] 31438#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/18 11:08:32 [notice] 31438#0: exiting
+2015/05/18 11:08:32 [notice] 31438#0: exit
+2015/05/18 11:08:32 [notice] 12538#0: signal 17 (SIGCHLD) received
+2015/05/18 11:08:32 [notice] 12538#0: worker process 31435 exited with code 0
+2015/05/18 11:08:32 [notice] 12538#0: worker process 31436 exited with code 0
+2015/05/18 11:08:32 [notice] 12538#0: worker process 31437 exited with code 0
+2015/05/18 11:08:32 [notice] 12538#0: worker process 31438 exited with code 0
+2015/05/18 11:08:32 [notice] 12538#0: exit

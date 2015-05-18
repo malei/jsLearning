@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<script type="text/javascript" src="jquery.min.js"></script>
+		<script type="text/javascript" src="jq.js"></script>
+	</head>
+	<body>
+		<div id = "httpDiv">
+		</div>
+		<button id="btget" type="button">Get test</button>
+		<script>
+			jq(document).ready(function(){
+				jq("#btget").click(function(){
+					//url="aaa.txt"
+					//var url = "http://127.0.0.1:9000/aaa.txt";
+					var url = "/aaa.txt";
+					jq.get(url,function(data,status){
+						//alert("data:" + data + "\nstatus:" + status);
+						//document.write("x1:" + x1 + "<br>")
+						//document.write("x2:" + x2 + "<br>")
+						jq("#httpDiv").html("Get:" + "data:" + data + "\nstatus:" + status)
+					}
+					);
+					//jq("#httpDiv").html("sdjfldjf")
+					//jq("#httpDiv").html(ret)
+				});
+			});
+		</script>
+		<button id="btpost" type="button">Post test</button>
+		<script>
+			jq(document).ready(function(){
+				jq("#btpost").click(function(){
+					//url="aaa.txt"
+					//var url = "http://127.0.0.1:9000/aaa.txt";
+					//var url = "/index.php";
+					var url = "/index.php";
+					jq.post(url,
+					{
+						name:"Donald Duck",
+						city:"Duckburg"
+					},
+					function(data,status){
+						//alert("len(data):" + len(data) + "\nstatus:" + status);
+						//alert("status:" + status);
+						//document.write("x1:" + x1 + "<br>")
+						jq("#httpDiv").html("Post:" + "data:" + data + "\nstatus:" + status)
+					}
+					);
+				});
+			});
+		</script>
+
+		<button id="btajax" type="button">Ajax test</button>
+		<script>
+			jq(document).ready(function(){
+				jq("#btajax").click(function(){
+					//url="aaa.txt"
+					//var url = "http://127.0.0.1:9000/aaa.txt";
+					//var url = "/index.php";
+					var url = "/aaa.txt";
+					htmlobj=jq.ajax({url:url,async:false});
+					jq("#httpDiv").html(htmlobj.responseText);
+				});
+			});
+		</script>
+
+		<div id="ajaxDiv"><h2>Let AJAX change this text</h2></div>
+		<button type="button" onclick="ajaxFunc()">Ajax change content</button>
+
+		<form action=""> 
+			Family:<input type="text" id="txt1" onkeyup="showHint(this.value)" />
+		</form>
+		<p>Advise: <span id="txtHint"> </span> </p> 
+
+		<form action="" style="margin-top:15px;"> 
+			<label>Select Customer:
+				<select name="customers" onchange="showCustomer(this.value)" style="font-family:Verdana, Arial, Helvetica, sans-serif;">
+					<option value="APPLE">Apple Computer, Inc.</option>
+					<option value="BAIDU ">BAIDU, Inc</option>
+					<option value="Canon">Canon USA, Inc.</option>
+					<option value="Google">Google, Inc.</option>
+					<option value="Nokia">Nokia Corporation</option>
+					<option value="SONY">Sony Corporation of America</option>
+				</select>
+			</label>
+		</form>
+		<br />
+		<div id="txtHint_list">Listing .....</div>
+
+	</body>
+</html>
+

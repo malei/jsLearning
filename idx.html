@@ -1,5 +1,24 @@
 <!DOCTYPE html>
 <html>
+
+	<head>
+		<script type="text/javascript" src="jquery.min.js"></script>
+		<script type="text/javascript" src="ss.js"></script>
+		<script type="text/javascript" src="jq.js"></script>
+		<style type="text/css"> 
+			.important
+			{
+				font-weight:bold;
+				font-size:xx-large;
+			}
+			.blue
+			{
+				color:blue;
+			}
+		</style>
+
+	</head>
+
 	<body>
 		<p>
 		JavaScript HTML
@@ -45,7 +64,94 @@
 		<button type="button" onclick="trycatchFunc()">Test Input</button>
 		<p id="mess"></p>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+		<p>xxxxxxxxx</p>
+		<p>xxxxxxxx</p>
+		<p>xxxxxx</p>
+
+		<h1 id="h01"></h1>
+
+		<px>This is paragragh</px>
+		<br>
+		<px2>This is paragragh, twwo</px2>
+		<br>
+		<button>Test jQuery</button>
+
+		<h3>China Office</h3>
+		<div class="ex">
+			<button class="hide" type="button">Hide</button>
+			<p>communict : Mr zhang<br/> 
+			No.100 <br/>
+			Beijing</p>
+		</div>
+
+		<h3>America Office</h3>
+		<div class="ex">
+			<button class="hide" type="button">Hide</button>
+			<p>commu:David<br/> 
+			No Five streen 200 <br/>
+			NewYork</p>
+		</div>
+
+		<button class="hide" type="button">Hide</button>
+		<button class="show" type="button">Show</button>
+		<button class="toggle" type="button">toggle</button>
+
+		<p>fadeIn()</p>
+		<button id = "btfadein">Fade in</button>
+		<button id = "btfadeout">Fade out</button>
+		<button id = "btfadetoggle">Toggle</button>
+		<button id = "btfadeto">Fade to</button>
+		<br><br>
+		<div id="div1" style="width:80px;height:80px;display:none;background-color:red;"></div>
+		<br>
+		<div id="div2" style="width:80px;height:80px;display:none;background-color:green;"></div>
+		<br>
+		<div id="div3" style="width:80px;height:80px;display:none;background-color:blue;"></div>
+
+		<div class="panel">
+			<p>W3School-Web</p>
+			<p>@W3School</p>
+		</div>
+
+		<p class="flip">PushHere</p>
+
+		<button id = "btanimate">animate</button>
+		<div id = "animateDiv" style="background:#98bf21;height:100px;width:100px;position:absolute;">
+		</div>
+
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<p><a href="http://www.w3school.com.cn" id="w3s" value="xxx">W3School.<b>Block</b>com.cn</a></p>
+		<button id = "btdom">butten</button>
+
+		<div id = "cssDiv">
+			<p> <a>hello lua</a></p>
+
+		</div>
+		<button id = "btcss">butten</button>
+
+		<h3 id="test">Push it</h3>
+		<button id="bttest" type="button">Get outsite</button>
+
+		<div id = "httpDiv">
+		</div>
+
+		<button id="btget" type="button">Get test</button>
+
+		<script>
+			jq(document).ready(function(){
+				jq("#btget").click(function(){
+					url="aaa.txt"
+					var ret = jq.get(url);
+					//jq("#httpDiv").html("sdjfldjf")
+					jq("#httpDiv").html(ret)
+				});
+			});
 		</script>
 
 	</body>
